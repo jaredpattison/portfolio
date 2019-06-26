@@ -8,8 +8,8 @@ import Parallax from './components/Parallax';
 import Footer from './components/Footer';
 import imageOne from './assets/spaceneedle.jpg';
 import imageTwo from './assets/vancouver.jpg';
-import "./design/reset.scss";
-import "./design/design.scss";
+import './design/reset.scss';
+import './design/design.scss';
 
 const App = () => {
 

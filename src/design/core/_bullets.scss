@@ -1,17 +1,17 @@
 .bullet-container {
   display: flex;
-  // background-color: $transparent; 
+  background-color: $transparent; 
   // background: $lightblack;
-  background: $black;
-  font: 1rem/1.4rem $raleway;
+  
+  font: 0.9rem/1.3rem $raleway;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem 7vw;
+  padding: 1.5rem 6vw;
 
   .bullet-point {
     color: $white;
-    padding: 1rem 1.6rem;
+    padding: 1rem 1.4rem;
 
     span {
       color: $accentColor;
@@ -19,6 +19,22 @@
 
   }
 
+}
+
+@media screen and (min-width: $M) {
+    
+  .bullet-container {
+    flex-direction: row;
+    font: bold 1.2rem/1.5rem $raleway;
+    padding: 2rem 5vw;
+    background: $black;
+  }
+
+  .bullet-point {
+    flex-basis: 23rem;
+    padding: 1rem 1.6rem;
+  }
+  
 }
 
 @media screen and (min-width: $L) {
