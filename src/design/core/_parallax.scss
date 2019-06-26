@@ -3,9 +3,9 @@
   height: 18rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   background-size: 1400px;
-  background-position: 45% 25%;
+  background-position: 45% 20%;
   overflow: hidden;
   position: static;
 }
@@ -27,8 +27,8 @@
 
 .darken p {
   margin: 2rem;
-  font: 3rem $raleway;
-  text-align: center;
+  font: 3.2rem $raleway;
+  text-align: right;
   color: $white;
   position: relative;
   z-index: 1;
@@ -45,6 +45,7 @@
 
     .darken p {
       font: bold 4.7rem $raleway;
+      text-align: center;
     }
 
 }

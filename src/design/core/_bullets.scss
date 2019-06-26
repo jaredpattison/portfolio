@@ -1,13 +1,13 @@
 .bullet-container {
   display: flex;
-  background-color: $transparent; 
-  // background: $lightblack;
-  
+  // background-color: $transparent; 
+  background: $lightblack;
+  // background: $black;
   font: 0.9rem/1.3rem $raleway;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1.5rem 6vw;
+  padding: 1rem 0;
 
   .bullet-point {
     color: $white;
@@ -27,7 +27,6 @@
     flex-direction: row;
     font: bold 1.2rem/1.5rem $raleway;
     padding: 2rem 5vw;
-    background: $black;
   }
 
   .bullet-point {
