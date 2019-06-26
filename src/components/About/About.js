@@ -20,8 +20,8 @@ const About = () => {
         {about.content.map((section, i) => <AboutParagraph key ={i} content={section} />)}
       </div>
     </div>
-  )
+  );
   
-}
+};
 
 export default About;

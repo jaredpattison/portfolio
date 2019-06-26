@@ -1,13 +1,11 @@
 .parallax {
   width: 100%;
-  height: 24rem;
+  height: 18rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-attachment:fixed !important; 
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
+  justify-content: flex-end;
+  background-size: 1400px;
+  background-position: 45% 25%;
   overflow: hidden;
   position: static;
 }
@@ -28,10 +26,25 @@
 }
 
 .darken p {
-  margin: 0;
-  font: bold 4.7rem $raleway;
+  margin: 2rem;
+  font: 3rem $raleway;
   text-align: center;
   color: $white;
   position: relative;
   z-index: 1;
+}
+
+@media screen and (min-width: $S) {
+  
+  .parallax {
+    height: 24rem;
+    background-attachment:fixed !important; 
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    }
+
+    .darken p {
+      font: bold 4.7rem $raleway;
+    }
+
 }

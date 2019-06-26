@@ -14,7 +14,8 @@ body {
   flex-direction: column;
   background-image: url("../assets/drop.jpg");
   background-attachment:fixed; 
-  background-size: cover;
+  background-size: 1400px;
+  background-position: 18% 78%;
   scroll-behavior: smooth;
 }
 
@@ -33,4 +34,13 @@ button {
   color: inherit;
   background-color: transparent;
   cursor: pointer;
+}
+
+@media screen and (min-width: $S) {
+  
+  body {
+    background-size: cover;
+    background-position: origin;
+    }
+
 }
