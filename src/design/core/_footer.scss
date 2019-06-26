@@ -1,0 +1,10 @@
+footer {
+
+  font: 1rem $quattrocento-sans;
+  height: $footer-height;
+  background: $black;
+  color: $lighttransparent;
+  padding: $space;
+  display: flex;
+  justify-content: center;
+}

@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import HeaderNav from './components/HeaderNav';
+import Intro from './components/Intro';
+import BulletContent from './components/BulletContent';
+import Projects from './components/Projects';
+import About from './components/About';
+import Parallax from './components/Parallax';
+import Footer from './components/Footer';
+import imageOne from './assets/spaceneedle.jpg';
+import imageTwo from './assets/vancouver.jpg';
+import "./design/reset.scss";
+import "./design/design.scss";
 
-function App() {
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+       <HeaderNav title="Jared's Portfolio" />
+       <main>
+         <Intro name="JARED PATTISON" description={['FULL-STACK', 'JAVASCRIPT', 'DEVELOPER']}/>
+         <BulletContent />
+         <Parallax bg={imageOne} tag="Projects" />
+         <Projects />
+         <Parallax bg={imageTwo} tag="About Me" />
+         <About name="JARED"/>
+       </main>
+       <Footer>
+         <div>&copy; 2019 JP</div>
+       </Footer>
+    </>
   );
-}
+  
+};
+
 
 export default App;

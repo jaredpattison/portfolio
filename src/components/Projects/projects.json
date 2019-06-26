@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Jared's Projects",
+    "records": [
+      {
+        "title": "Packing Planner",
+        "copy": "Packing Planner provides a pre-populated, customizable, packing checklist based the climate the user will be travelling to and the activities he expects to participate in. The final checklist is saved to the browsers local storage and is retrieved when opened.\nTechnologies used: JavaScript, CSS, JSON, arrays, local storage",
+        "media": {
+          "alt": "This is a picture of packing planner logo",
+          "title": "packing-planner.png",
+          "href": "https://github.com/andrewquamme/one-bar/blob/master/public/assets/logo-copy.png"
+        },
+        "links": [
+          {
+            "type": "primary",
+            "title": "",
+            "href": ""
+          },
+          {
+            "type": "secodary",
+            "title": "GitHub",
+            "href": "https://github.com/niesssiobhan/packing-planner"
+          }
+        ]
+      },
+      {
+        "title": "One-Bar",
+        "copy": "One-Bar is a SMS-based application that allows users in areas with limited mobile coverage to access vital information such as weather forecasts, hospital locations, restaurants, local trails, etc. Utilizing a Node.js server the application receives requests for information via text message (Twilio), makes API calls, parses data, and relays the information back to the user.\nTechnologies used: Node.js, Express, Superagent, EJS, PostgreSQL\nThird-Pary APIs: Google Maps, Yelp, Darksky, Hiking Project, News API",
+        "media": {
+          "alt": "This is a picture of One-Bar logo",
+          "title": "one-bar.png",
+          "href": "https://placehold.it/200x100"
+        },
+        "links": [
+          {
+            "type": "primary",
+            "title": "Website",
+            "href": "http://www.one-bar.info/"
+          },
+          {
+            "type": "secodary",
+            "title": "GitHub",
+            "href": "https://github.com/andrewquamme/one-bar"
+          }
+        ]
+      },
+      {
+        "title": "CF Quick-Start",
+        "copy": "cf-quick-start is a globally installed NPM package that generates starter code for one of four functioning Node.js projects (api-server, express server, React app, or socket server as well as tests and configuration files).\nTechnologies used: Node.js, NPM packages (inquirer, fs, fs-extra), Jest",
+        "media": {
+          "alt": "This is a picture of CF Quick-Start logo",
+          "title": "cf-quick-start.png",
+          "href": "https://placehold.it/200x100"
+        },
+        "links": [
+          {
+            "type": "primary",
+            "title": "Website",
+            "href": "https://www.npmjs.com/package/cf-quick-start"
+          },
+          {
+            "type": "secodary",
+            "title": "GitHub",
+            "href": "https://github.com/TannerSeramur/cf-quick-start"
+          }
+        ]
+      },
+      {
+        "title": "BUZZ CARD",
+        "copy": "BuzzCard is a mobile application that allows users to exchange contact information, such as social media accounts, by scanning QR codes (two-dimensional barcodes). The application enables users to create a profile, choose what information to share, and a QR code is dynamically generated that can then be scanned by another user\nTechnologies used: React Native, Expo, Redux, Babel",
+        "media": {
+          "alt": "This is a picture of BUZZ CARD logo",
+          "title": "buzzcard.png",
+          "href": "https://placehold.it/200x100"
+        },
+        "links": [
+          {
+            "type": "primary",
+            "title": "Website",
+            "href": "https://play.google.com/store/apps/details?id=com.jaredpattison.BUZZCARD&hl=en_US"
+          },
+          {
+            "type": "secodary",
+            "title": "GitHub",
+            "href": "https://github.com/401-final-project/front-end"
+          }
+        ]
+      }
+    ]
+  }
+]
+      

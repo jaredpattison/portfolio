@@ -1,0 +1,39 @@
+.projects-container {
+  background: $white;
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 4rem);
+
+  .projects-deck {
+    width: 60rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+    header {
+      font: 2rem $raleway;
+    }
+
+    .projects-card {
+      padding: 1rem;
+      width: 22rem;
+      height: 22rem;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+    }
+
+  figure > img {
+    width: 18rem;
+    height: 18rem;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+
+}
+

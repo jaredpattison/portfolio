@@ -1,0 +1,36 @@
+.bullet-container {
+  display: flex;
+  // background-color: $transparent; 
+  // background: $lightblack;
+  background: $black;
+  font: 1rem/1.4rem $raleway;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 7vw;
+
+  .bullet-point {
+    color: $white;
+    padding: 1rem 1.6rem;
+
+    span {
+      color: $accentColor;
+    }
+
+  }
+
+}
+
+@media screen and (min-width: $L) {
+    
+  .bullet-container {
+    flex-direction: row;
+    font: bold 1.2rem/1.5rem $raleway;
+    padding: 2rem 5vw;
+  }
+
+  .bullet-point {
+    flex-basis: 23rem;
+  }
+  
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans|Raleway&display=swap');
+
+$quattrocento-sans: 'Quattrocentro Sans', sans-serif;
+$raleway: 'Raleway';
+$rootColor: lightgrey;
+// $accentColor: #FEC339;
+$accentColor: #D1005D;
+// $bleed: #2d5986;
+$bleed: #0788A3;
+
+
+$lightblack: #181818;
+$black: black;
+$white: #FDFDFD;
+$lightgrey: #C8C8C8;
+$darkgrey: #777;
+$lighttransparent: rgba(252, 252, 252, 0.2);
+$transparent: rgba(252, 252, 252, 0.1);
+$header-height: 4rem;
+$footer-height: 3rem;
+$space: 0.8rem;
+
+// media screens
+$M: 600px;
+$L: 1200px;
