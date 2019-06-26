@@ -13,9 +13,8 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("../assets/drop.jpg");
-  background-attachment:fixed; 
   background-size: 1400px;
-  background-position: 18% 78%;
+  background-position: 18% 0%;
   scroll-behavior: smooth;
 }
 
@@ -39,6 +38,7 @@ button {
 @media screen and (min-width: $S) {
   
   body {
+    background-attachment:fixed; 
     background-size: cover;
     background-position: origin;
     }
