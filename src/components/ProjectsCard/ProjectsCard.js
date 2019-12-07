@@ -1,7 +1,7 @@
 import React from 'react';
 import Modal from 'react-modal';
-import github from '../../assets/github_circle.png';
-import world from '../../assets/navigation.png';
+import github from '../../assets/github.svg';
+import world from '../../assets/www.png';
 
 class ProjectsCard extends React.Component {
 

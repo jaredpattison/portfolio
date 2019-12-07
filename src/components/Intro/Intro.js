@@ -1,3 +1,4 @@
+  
 import React from 'react';
 import linkedin_circle from '../../assets/linkedin_circle.png';
 import gmaillogo from '../../assets/gmaillogo.png';
@@ -14,10 +15,10 @@ const Intro = props => {
 
         </div>
         <div className="animated fadeInRight icon-container delay-1s">
-            <a  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jaredpattison/"><img alt="" className="social" src={linkedin_circle}/></a>
-            <a  href="mailto:jaredpattison@gmail.com"><img alt="" className="social" src={gmaillogo}/></a>
-            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/jaredpattison"><img alt="" className="social-invert" src={github_circle}/></a>
-          </div>
+          <a  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jaredpattison/"><img alt="" className="social" src={linkedin_circle}/></a>
+          <a  href="mailto:jaredpattison@gmail.com"><img alt="" className="social" src={gmaillogo}/></a>
+          <a  target="_blank" rel="noopener noreferrer" href="https://github.com/jaredpattison"><img alt="" className="social-invert" src={github_circle}/></a>
+        </div>
       </div>
     </div>
   )
